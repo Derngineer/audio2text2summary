@@ -62,11 +62,6 @@ if st.sidebar.button("Transcribe Audio"):
             text = transcription['text']
         except Exception as e:
             st.error(f'Error transcribing audio:', e)
-        # finally:
-        #     # Delete the temporary file after processing
-        #     if temp_file_path and os.path.exists(temp_file_path):
-        #         os.remove(temp_file_path)
-        #         # st.write(f"Deleted temporary file: {temp_file_path}")
     else:
         st.sidebar.error("Please upload or record an audio file")
 
