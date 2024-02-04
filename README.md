@@ -14,6 +14,12 @@ Inside virtual environment clone the repository
     git clone https://github.com/Derngineer/audio2text2summary.git
 
 
+
+Navigate to project folder 
+    
+    cd audio2text2summary
+
+
 Install requirements for the app
 
     pip install -r requirements.txt
