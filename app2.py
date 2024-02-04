@@ -88,17 +88,3 @@ if summarize(text) == None:
 else:
     st.markdown(summarize(text=text))
 
-#below script is good for cleanup 
-    
-# temp_dir = tempfile.gettempdir()
-
-
-# files_to_delete = [f for f in os.listdir(temp_dir) if f.endswith(".wav")]
-
-# for file_to_delete in files_to_delete:
-#     file_path = os.path.join(temp_dir, file_to_delete)
-#     try:
-#         os.remove(file_path)
-#         print(f"Deleted file: {file_path}")
-#     except Exception as e:
-#         print(f"Error deleting file {file_path}: {e}")
