@@ -1,13 +1,18 @@
 # audio2text2summary
 
-This streamlit app takes voice and returns text and the text summary using whisper and facebook/bart-large-cnn
+Create virtual environment
 
-to run app on your local computer follow these steps
-
-    git clone https://github.com/Derngineer/audio2text2summary.git
+    python -m venv env
 
 activate virtual environment
     source bin/activate
+
+This streamlit app takes voice and returns text and the text summary using whisper and facebook/bart-large-cnn
+
+Inside virtual environment clone the repository
+
+    git clone https://github.com/Derngineer/audio2text2summary.git
+
 
 Install requirements for the app
 
